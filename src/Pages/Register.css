@@ -1,0 +1,23 @@
+.imge {
+  width: 90px;
+}
+.imgdiv {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.imgdiv h4 {
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+}
+.inputr {
+  width: 280px;
+  padding: 5px;
+  border: 0;
+
+  background: hwb(0 100% 0%);
+  color: rgb(0, 0, 0);
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  outline-style: none;
+}

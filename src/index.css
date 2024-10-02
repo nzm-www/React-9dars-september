@@ -1,0 +1,101 @@
+.body {
+  display: flex;
+  justify-content: center;
+  padding-top: 100px;
+}
+.form {
+  background: #ffffff;
+  padding: 80px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  width: 310px;
+  border: 0;
+  padding: 10px;
+  border-radius: 5px;
+  background: #ce7d13;
+  color: #ffffff;
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+}
+.button:hover {
+  transition: 0.8s;
+
+  background: rgb(255, 193, 106);
+}
+.input {
+  width: 280px;
+  padding: 5px;
+  border: 0;
+
+  background: hwb(0 100% 0%);
+  color: rgb(0, 0, 0);
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  outline-style: none;
+}
+.products-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 20px;
+}
+.card {
+  background: #333;
+  border-radius: 8px;
+  padding: 20px;
+  width: 200px;
+  color: rgb(120, 192, 255);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.card h2 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+.card p {
+  margin: 5px 0;
+}
+.imggg {
+  width: 90px;
+}
+.logof {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.logof h2 {
+  font-size: 26px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+}
+.allin {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 20px;
+  background: hwb(0 100% 0%);
+  padding: 4px;
+  border-radius: 5px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.allin:hover {
+  transition: 1s;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.h3 {
+  position: relative;
+  margin-left: 240px;
+  font-size: 12px;
+  font-weight: 300;
+}
+.h3:hover {
+  font-size: 20px;
+  transition: 1s;
+}

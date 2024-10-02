@@ -1,0 +1,147 @@
+body {
+  background: #ffffff;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  height: 100%;
+  scroll-behavior: smooth;
+}
+ul,
+ol {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+.container {
+  width: 100%;
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 165px;
+  padding-left: 165px;
+  padding-top: 16px;
+}
+.containerrr {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1500px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.til {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.select {
+  font-size: 12px;
+  font-weight: 700;
+
+  padding: 3px 20px;
+  border: 1px solid rgba(0, 0, 0, 0.183);
+}
+.minic {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+/* ...................................... */
+.header {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 20px;
+  display: flex;
+  background-color: rgb(2, 24, 35);
+  box-shadow: rgba(255, 255, 255, 0.35) 0px 5px 15px;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logodiv {
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.logo {
+  width: 70px;
+}
+.nav li {
+  color: aliceblue;
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+}
+/*------ Settings ------*/
+.containerr {
+  --color: #ffffff;
+  --size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  cursor: pointer;
+  font-size: var(--size);
+  user-select: none;
+  fill: var(--color);
+}
+.nav-lust {
+  display: flex;
+  cursor: pointer;
+  gap: 30px;
+  color: #ffffff;
+  font-family: "roboto", sans-serif;
+  font-weight: 600;
+}
+.icons {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+/* From Uiverse.io by vinodjangid07 */
+/* From Uiverse.io by Yaya12085 */
+button {
+  border: none;
+  display: flex;
+  padding: 0.4rem 0.3rem;
+  background-color: #488aec;
+  color: #ffffff;
+  font-size: 0.75rem;
+  line-height: 1rem;
+  font-weight: 700;
+  cursor: pointer;
+  text-align: center;
+  text-transform: uppercase;
+  vertical-align: middle;
+  align-items: center;
+  border-radius: 0.2rem;
+  user-select: none;
+  gap: 0.75rem;
+  box-shadow: 0 4px 6px -1px #488aec31, 0 2px 4px -1px #488aec17;
+  transition: all 0.6s ease;
+}
+button:hover {
+  box-shadow: 0 10px 15px -3px #488aec4f, 0 4px 6px -2px #488aec17;
+}
+button:focus,
+button:active {
+  opacity: 0.85;
+  box-shadow: none;
+}
+button svg {
+  width: 1.25rem;
+  height: 1.25rem;
+}
